@@ -25,20 +25,13 @@ const globalStyles = css`
 `
 
 const color = {
-  primary: '#3897f0',
+  text: '#fff',
+  textSecond: '#000',
 
-  backgroundLight: '#fafafa',
-  backgroundWhite: '#fff',
-
-  text: '#262626',
-  textLight: '#999',
-
-  border: '#efefef',
-  borderDark: '#e6e6e6',
 }
 
 const font = {
-  primary: '-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif',
+  primary: 'Fira Code, Roboto, Helvetica, sans-serif',
 }
 
 export { globalStyles, color, font }

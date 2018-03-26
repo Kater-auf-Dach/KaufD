@@ -4,10 +4,7 @@ import styled from 'styled-components'
 const bg = ({ section }) => {
   switch (section) {
     case 1:
-      return 'linear-gradient(to right, #0f0c29, #302b63, #24243e);'
-
-    case 2:
-      return 'red;'
+      return 'linear-gradient(to right, #24c6dc, #514a9d);'
 
     default:
       return '#eee;'
@@ -17,8 +14,11 @@ const bg = ({ section }) => {
 const PanelWrapper = styled.section`
   position: relative;
   min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   flex-shrink: 0;
-  color: #fff;
   background: ${bg};
   background-size: cover;
   background-position: 50%;

@@ -4,7 +4,8 @@ import { injectGlobal } from 'styled-components'
 import { normalize } from 'styled-normalize'
 import { globalStyles } from './ui/theme'
 
-import { PageInner, Heading, Panel } from './ui'
+import { PageInner, Panel } from './ui'
+import { MainTitle, MainSubtitle } from './modules/greeting/atoms'
 
 const title = '.{ Kirill Mikhaylin }'
 
@@ -15,13 +16,8 @@ class App extends Component {
     return (
       <PageInner>
         <Panel section={1}>
-          <Heading>{title}</Heading>
-          <p>
-            To get started, edit <code>src/App.js</code> and save to reload.
-          </p>
-        </Panel>
-        <Panel section={3}>
-          <Heading level={2}>Title 2</Heading>
+          <MainTitle>{title}</MainTitle>
+          <MainSubtitle>Frontend developer</MainSubtitle>
         </Panel>
       </PageInner>
     );
