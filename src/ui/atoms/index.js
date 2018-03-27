@@ -1,3 +1,5 @@
 export { PageInner } from './page-inner'
 export { Panel } from './panel'
 export { Heading } from './heading'
+export { ContactList } from './contact-list'
+export { ContactIcon } from './contact-icon'

@@ -5,6 +5,7 @@ const bg = ({ section }) => {
   switch (section) {
     case 1:
       return 'linear-gradient(to right, #24c6dc, #514a9d);'
+    // return 'linear-gradient(to right, #00dbde 0%, #fc00ff 100%);'
 
     default:
       return '#eee;'

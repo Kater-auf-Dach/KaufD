@@ -8,7 +8,7 @@ const globalStyles = css`
   }
 
   a {
-    text-decoration: none;    
+    text-decoration: none
   }
 
 
@@ -31,7 +31,7 @@ const color = {
 }
 
 const font = {
-  primary: 'Fira Code, Roboto, Helvetica, sans-serif',
+  primary: '"Fira Code", "Fira Mono", Roboto, Helvetica, sans-serif',
 }
 
 export { globalStyles, color, font }
