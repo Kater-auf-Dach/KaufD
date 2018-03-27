@@ -15,14 +15,12 @@ const styles = css`
   color: ${color.primary};
 `
 
-const Heading = styled(({
-  level, children, theme, ...props
-}) => React.createElement(`h${level}`, props, children)) `${styles}`
+const Heading = styled(({ level, children, ...props }) => 
+  React.createElement(`h${level}`, props, children)) `${styles}`
 
 Heading.propTypes = {
   level: PropTypes.number,
   children: PropTypes.node,
-  palette: PropTypes.string,
 }
 
 Heading.defaultProps = {

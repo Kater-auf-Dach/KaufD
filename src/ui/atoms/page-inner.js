@@ -12,7 +12,7 @@ const PageInner = ({ children, ...props }) =>
     {children}
   </Wrapper>
 
-PageInner.PropTypes = {
+PageInner.propTypes = {
   children: PropTypes.node.isRequired,
 }
 

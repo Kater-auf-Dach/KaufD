@@ -1,5 +1,3 @@
-import styled from 'styled-components'
-
 import { Heading } from '../../../ui'
 import { color } from '../../../ui/theme'
 

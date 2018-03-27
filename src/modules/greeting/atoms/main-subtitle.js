@@ -1,7 +1,5 @@
-import styled from 'styled-components'
-
 import { Heading } from '../../../ui'
-import { font, color } from '../../../ui/theme'
+import { color } from '../../../ui/theme'
 
 const MainSubtitle = Heading.extend`
   font-size: 3rem;

@@ -8,7 +8,6 @@ import { PageInner, Panel } from './ui'
 import { MainTitle, MainSubtitle } from './modules/greeting/atoms'
 import { Contacts } from './components/contacts'
 
-const title = 'Kirill Mikhaylin'
 const subtitle = '{frontend developer}'
 
 injectGlobal`${normalize} ${globalStyles}`
@@ -18,7 +17,7 @@ class App extends Component {
     return (
       <PageInner>
         <Panel section={1}>
-          <MainTitle>{title}</MainTitle>
+          <MainTitle>Kirill Mikhaylin</MainTitle>
           <MainSubtitle>{subtitle}</MainSubtitle>
           <Contacts />
         </Panel>

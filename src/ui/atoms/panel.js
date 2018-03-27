@@ -1,4 +1,5 @@
 import React from 'react'
+import PropTypes from 'prop-types'
 import styled from 'styled-components'
 
 const bg = ({ section }) => {
@@ -31,11 +32,13 @@ const Panel = ({ children, section, ...props }) =>
   </PanelWrapper>
 
 
-// Panel.PropTypes = {
-//   children: PropTypes.node.isRequired,
-// }
+Panel.propTypes = {
+  children: PropTypes.node.isRequired,
+  section: PropTypes.number,
+}
 
-// Panel.defaulProps = {
-// }
+Panel.defaulProps = {
+  section: 1,
+}
 
 export { Panel }
